@@ -1,0 +1,26 @@
+{
+  "title": "Kemboi",
+  "titleTemplate": "%s - KEMBOI ",
+  "description": "Kemboi website - https://www.kemboi.dev",
+  "openGraph": {
+    "title": "Kemboi",
+    "description": "Kemboi website - https://www.kemboi.dev",
+    "type": "website",
+    "locale": "en_IE",
+    "url": "https://www.kemboi.dev",
+    "site_name": "Kemboi blog",
+    "image": [
+      {
+        "url": "/card.png",
+        "width": 800,
+        "heigth": 600,
+        "alt": "Kemboi.dev"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@kemboi",
+    "site": "@kemboi",
+    "cardType": "summary_large_image"
+  }
+}

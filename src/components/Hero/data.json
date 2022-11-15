@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "title": "Revenue",
+      "value": "KES 13,456",
+      "diff": 34
+    },
+    {
+      "title": "Profit",
+      "value": "KES 4,145",
+      "diff": -13
+    },
+    {
+      "title": "Coupons Usage",
+      "value": "745",
+      "diff": 18
+    }
+  ]
+}
