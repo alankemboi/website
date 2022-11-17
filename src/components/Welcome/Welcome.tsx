@@ -1,3 +1,6 @@
+import BlogPostCard from '@components/BlogPostCard';
+import VideoCard from '@components/VideoCard';
+import { Icon3dCubeSphere, IconColorSwatch, IconStatusChange } from '@tabler/icons';
 import { Title, Text } from '@mantine/core';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -24,7 +27,8 @@ export function Welcome() {
               </Text>
             </Title>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              VP of Developer Experience at <span className="font-semibold">Zenop</span>
+              Developer{' '}
+              <span className="font-semibold from-[#D8B4FE] to-[#818CF8]"> 💖 Open-Source</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
               Helping developers build a faster web. Teaching about web development, serverless, and
@@ -33,7 +37,7 @@ export function Welcome() {
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
             <Image
-              alt="Lee Robinson"
+              alt="Alan Kemboi"
               height={176}
               width={176}
               src="/avatar.jpg"
@@ -48,21 +52,21 @@ export function Welcome() {
           Featured Posts
         </h3>
         <div className="flex gap-6 flex-col md:flex-row">
-          {/* <BlogPostCard
-            title="Everything I Know About Style Guides, Design Systems, and Component Libraries"
-            slug="style-guides-component-libraries-design-systems"
-            gradient="from-[#D8B4FE] to-[#818CF8]"
+          <BlogPostCard
+            title="Front-end microservice"
+            description="Everything I Know About Style Guides, Design Systems, and Component Libraries"
+            icon={<IconColorSwatch />}
           />
           <BlogPostCard
-            title="Rust Is The Future of JavaScript Infrastructure"
-            slug="rust"
-            gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
+            description="Rust Is The Future of JavaScript Infrastructure"
+            title="Rust"
+            icon={<Icon3dCubeSphere />}
           />
           <BlogPostCard
-            title="Past, Present, and Future of React State Management"
-            slug="react-state-management"
-            gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
-          /> */}
+            description="Past, Present, and Future of React State Management"
+            title="React state management"
+            icon={<IconStatusChange />}
+          />
         </div>
         <Link
           href="/blog"
@@ -94,7 +98,7 @@ export function Welcome() {
           Build and deploy a modern SaaS application using the most popular open-source software.
           This course is 12 hours long and is completely live streamed.
         </p>
-        {/* <VideoCard
+        <VideoCard
           index="01"
           href="https://www.youtube.com/watch?v=MxR5I5_hOKk&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=2"
           length="1:02:45"
@@ -117,7 +121,7 @@ export function Welcome() {
           href="https://www.youtube.com/watch?v=u8iv_yhSRI8&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=5"
           length="1:13:45"
           title="Firebase Admin with Next.js + SWR"
-        /> */}
+        />
         <a
           target="_blank"
           rel="noopener noreferrer"
