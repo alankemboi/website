@@ -1,4 +1,4 @@
-import { ActionIcon, Group, Popover, Text, useMantineColorScheme } from '@mantine/core';
+import { ActionIcon, Group, Popover, useMantineColorScheme } from '@mantine/core';
 import { IconSun, IconMoonStars } from '@tabler/icons';
 
 export function ColorSchemeToggle() {
@@ -19,7 +19,7 @@ export function ColorSchemeToggle() {
             <Popover.Target>
               <IconSun size={20} stroke={1.5} />
             </Popover.Target>
-            <Popover.Dropdown>Light mode disabled</Popover.Dropdown>
+            <Popover.Dropdown>Light mode disabled for now🐱‍🚀</Popover.Dropdown>
           </Popover>
         ) : (
           <IconMoonStars size={20} stroke={1.5} />
