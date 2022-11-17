@@ -33,9 +33,9 @@ export const Footer: FunctionComponent = () => (
         </Link>
       </div>
       <div className="flex flex-col space-y-4">
-        <ExternalLink href="https://twitter.com/leeerob">Twitter</ExternalLink>
-        <ExternalLink href="https://github.com/leerob">GitHub</ExternalLink>
-        <ExternalLink href="https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw">
+        <ExternalLink href="https://linkedin.com/in/alan-kemboi-c">Twitter</ExternalLink>
+        <ExternalLink href="https://github.com/alankemboi">GitHub</ExternalLink>
+        <ExternalLink href="https://www.youtube.com/channel/UCQ38AC_fABw3gbfCNA60ibQ?sub_confirmation=1">
           YouTube
         </ExternalLink>
       </div>
