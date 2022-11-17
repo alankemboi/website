@@ -100,32 +100,32 @@ export function Welcome() {
         </p>
         <VideoCard
           index="01"
-          href="https://www.youtube.com/watch?v=MxR5I5_hOKk&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=2"
+          href="https://www.youtube.com/channel/UCQ38AC_fABw3gbfCNA60ibQ?sub_confirmation=1"
           length="1:02:45"
           title="Introduction to React 2025"
         />
         <VideoCard
           index="02"
-          href="https://www.youtube.com/watch?v=AGl52moyISU&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=3"
+          href="https://www.youtube.com/channel/UCQ38AC_fABw3gbfCNA60ibQ?sub_confirmation=1"
           length="54:22"
           title="Firestore, Chakra UI, Absolute Imports"
         />
         <VideoCard
           index="03"
-          href="https://www.youtube.com/watch?v=3g6-v3_BNbM&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=4"
+          href="https://www.youtube.com/channel/UCQ38AC_fABw3gbfCNA60ibQ?sub_confirmation=1"
           length="1:08:30"
           title="Designing & Building the Dashboard"
         />
         <VideoCard
           index="04"
-          href="https://www.youtube.com/watch?v=u8iv_yhSRI8&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=5"
+          href="https://www.youtube.com/channel/UCQ38AC_fABw3gbfCNA60ibQ?sub_confirmation=1"
           length="1:13:45"
           title="Firebase Admin with Next.js + SWR"
         />
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.youtube.com/playlist?list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1"
+          href="https://www.youtube.com/channel/UCQ38AC_fABw3gbfCNA60ibQ?sub_confirmation=1"
           className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
         >
           Watch all videos
