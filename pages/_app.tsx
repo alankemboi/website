@@ -27,7 +27,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
     <>
       <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-39E2ES6DSN"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.G_gitTAG}`}
       />
       <Script
         id="google-analytics"
@@ -37,7 +37,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-39E2ES6DSN', {
+          gtag('config', '${process.env.G_TAG}', {
             page_path: window.location.pathname,
           });
         `,
