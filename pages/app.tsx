@@ -3,7 +3,7 @@ import Hero from '@components/Hero';
 
 const App: NextPage = () => (
   <>
-    <Hero wide textOnly />
+    <Hero />
   </>
 );
 
