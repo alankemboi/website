@@ -4,4 +4,4 @@ export default {
   title: 'Hero',
 };
 
-export const Usage = () => <Hero wide textOnly />;
+export const Usage = () => <Hero />;

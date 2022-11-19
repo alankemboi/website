@@ -11,7 +11,7 @@ export default function Hero() {
         withCloseButton={false}
         size="xs"
         opened={opened}
-        onClose={function (): void {
+        onClose={(): void => {
           throw new Error('Function not implemented.');
         }}
       >

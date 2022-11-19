@@ -3,7 +3,7 @@ import Hero from '.';
 
 describe('Hero component', () => {
   it('button to have correct label', () => {
-    render(<Hero wide textOnly />);
+    render(<Hero />);
     expect(2).toBe(2);
   });
 });
