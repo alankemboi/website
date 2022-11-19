@@ -11,6 +11,7 @@ import { Header } from '@components/Header';
 import { Footer } from '@components/Footer';
 import '@styles/index.css';
 import '@styles/globals.css';
+import Script from 'next/script';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
@@ -24,6 +25,24 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
 
   return (
     <>
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-39E2ES6DSN"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-39E2ES6DSN', {
+            page_path: window.location.pathname,
+          });
+        `,
+        }}
+      />
       <Head />
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
         <MantineProvider theme={{ colorScheme: 'dark' }} withGlobalStyles withNormalizeCSS>
